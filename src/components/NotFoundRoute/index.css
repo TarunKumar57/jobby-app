@@ -1,0 +1,32 @@
+.not-found-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  background-color: #000000;
+  text-align: center;
+}
+.not-found-img {
+  height: 50vh;
+}
+.not-found-heading {
+  color: #f8fafc;
+}
+.not-found-paragraph {
+  color: #f1f5f9;
+  margin-top: 0px;
+}
+@media (max-width: 600px) {
+  .not-found-img {
+    height: 25vh;
+  }
+  .not-found-heading {
+    font-size: large;
+  }
+  .not-found-paragraph {
+    font-size: small;
+  }
+}

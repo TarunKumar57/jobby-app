@@ -1,0 +1,21 @@
+.list-hr {
+  border: 1px solid #b6c5ff;
+  width: 100%;
+  /* width: 300px; */
+}
+ul {
+  list-style-type: none;
+  padding-left: 0%;
+  width: 300px;
+}
+.filter-input {
+  margin-right: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+.filter-label {
+  margin-bottom: 9px;
+  margin-top: 9px;
+  font-size: small;
+}

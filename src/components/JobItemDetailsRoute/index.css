@@ -1,0 +1,249 @@
+.jobs-Details-route-container {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.jobs-item-details-container {
+  color: #ffffff;
+  background-color: #272727;
+  border-radius: 9px;
+  height: max-content;
+  width: 90%;
+  padding: 3%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.job-details-logo-role-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+.logo {
+  height: 70px;
+}
+.job-details-role-rating-container {
+  margin-left: 3%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.role {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.rating {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  /* font-weight: 500; */
+}
+.star {
+  align-self: center;
+  margin-right: 5px;
+}
+.job-details-location-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0%;
+}
+.job-details-icons-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 0%;
+}
+.location {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+.icon {
+  margin: 0px;
+  margin-right: 5px;
+  font-size: 22px;
+}
+.work-type {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+.salary {
+  font-size: 20px;
+}
+.jobs-list-hr {
+  border: 1px solid #b6c5ff;
+  margin-top: 0%;
+}
+.desc-visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visit-link {
+  color: #6366f1;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.link-icon {
+  margin-left: 5px;
+}
+/* .desc-head {
+  font-size: large;
+}
+.desc-para {
+  font-size: medium;
+  color: #f1f5f9;
+} */
+button {
+  cursor: pointer;
+}
+
+.skills-heading {
+  font-size: 24px;
+}
+.skills-item-list-container {
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 5%;
+  padding-left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-item-container {
+  display: flex;
+  align-items: center;
+  margin: 9px;
+  margin-right: 9%;
+}
+.skills-item-img {
+  height: 50px;
+}
+.skills-item-text {
+  font-weight: large;
+  font-weight: 500;
+  margin-left: 9px;
+}
+
+.life-at-company-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.life-at-company-head {
+  font-size: 24px;
+}
+.life-at-company-para {
+  font-size: medium;
+}
+.life-at-company-img {
+  height: 100%;
+  width: 100%;
+}
+
+.similar-jobs-head {
+  font-size: 24px;
+  width: 90%;
+  margin-left: 5%;
+}
+.similar-jobs-list-container {
+  list-style-type: none;
+  padding-left: 0%;
+  width: 90%;
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.similar-jobs-list-item-container {
+  color: #ffffff;
+  background-color: #272727;
+  border-radius: 9px;
+  height: max-content;
+  width: 25vw;
+  padding: 1%;
+  margin: 3%;
+  margin-left: 0%;
+}
+.similar-jobs-list-logo-role-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+.logo {
+  height: 70px;
+}
+.similar-jobs-list-role-rating-container {
+  margin-left: 3%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.role {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.rating {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  /* font-weight: 500; */
+}
+.star {
+  align-self: center;
+  margin-right: 5px;
+}
+.similar-jobs-list-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.location {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+.icon {
+  margin: 0px;
+  margin-right: 5px;
+  font-size: 22px;
+}
+.work-type {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  margin-left: 5%;
+}
+.desc-head {
+  font-size: large;
+}
+.disc-para {
+  font-size: medium;
+  color: #f1f5f9;
+}
+
+@media (max-width: 600px) {
+  .similar-jobs-list-item-container {
+    width: 90vw;
+    padding: 3%;
+  }
+  .life-at-company-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.loader-container {
+  text-align: center;
+}
